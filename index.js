@@ -54,12 +54,12 @@ function showWeatherReport(weather){
 
     if(weatherType.textContent == "Clear")
     {
-        document.body.style.backgroundImage = "url(images/clear.jpg)";
+        document.body.style.backgroundImage = "url(clear.jpg)";
         // iconType.innerHTML= "url(icons/clear.ico)";
     }
     else if(weatherType.textContent == "Clouds")
     {
-        document.body.style.backgroundImage = "url(images/cloudy.jpg)";
+        document.body.style.backgroundImage = "url(cloudy.jpg)";
         // iconType.innerHTML= "url(icons/cloud.ico)";
     }
     else if(weatherType.textContent == "Smoke")
@@ -69,29 +69,29 @@ function showWeatherReport(weather){
     }
      else if(weatherType.textContent == "Haze")
     {
-        document.body.style.backgroundImage = "url(images/cloudy.jpg)";
+        document.body.style.backgroundImage = "url(cloudy.jpg)";
         // iconType.innerHTML= "url(icons/cloud.ico)";
     }
 
     else if(weatherType.textContent == "Rain")
     {
-        document.body.style.backgroundImage = "url(images/raining.jpg)";
+        document.body.style.backgroundImage = "url(raining.jpg)";
         // iconType.innerHTML= "url(icons/rain.ico)";
 
     }
     else if(weatherType.textContent == "Snow")
     {
-        document.body.style.backgroundImage = "url(images/snow.jpg)";
+        document.body.style.backgroundImage = "url(snow.jpg)";
         // iconType.innerHTML= "url(icons/snow.ico)";
     }
     else if(weatherType.textContent == "Sunny")
     {
-        document.body.style.backgroundImage = "url(images/sunnyy.jpg)";
+        document.body.style.backgroundImage = "url(sunnyy.jpg)";
         // iconType.innerHTML= "url(icons/sun.ico)";
     }
     else if(weatherType.textContent == "Thunderstorm")
     {
-        document.body.style.backgroundImage = "url(images/thunderstorm.jpg)";
+        document.body.style.backgroundImage = "url(thunderstorm.jpg)";
         // iconType.innerHTML= "url(icons/storm.ico)";
     }
 
